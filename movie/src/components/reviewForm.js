@@ -10,7 +10,7 @@ export default class ReviewForm extends React.Component {
     let allReviews = [
       {
         reviewer: 'Jenny',
-        content: "I love this movie"
+        content: "Best Movie"
       },
       {
         reviewer: 'Jenny',
@@ -20,7 +20,7 @@ export default class ReviewForm extends React.Component {
   
     return(
     <div>
-      <ReviewList {...{allReviews: allReviews, content: "I love this movie"}} />
+      <ReviewList {...{allReviews: allReviews, content: "The Best Movie"}} />
       {/* <ReviewList /> */}
     </div>
     );

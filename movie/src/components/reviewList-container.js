@@ -3,6 +3,7 @@ import React from "react";
 import Review from "./review";
 import StarContain from "./star-contain";
 import ReviewForm from "./reviewForm";
+
 // import starButton from "./stars";
 
 
@@ -33,7 +34,7 @@ export default class ReviewList extends React.Component {
       <div>
         <div>
           <StarContain />
-          <ReviewForm />
+          <Review/>
           <br />
           <div className="card-body">
             <button className="btn btn-outline-success" value="Submit">

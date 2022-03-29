@@ -42,8 +42,8 @@ export default class Movie extends React.Component {
               <p className="card-text">{this.props.Synposis}</p>
               {/* <p className="card-text"><small className="text-muted">Rate this movie</small></p> */}
               <h3 className="rateMovie">Rate this movie</h3>
-              {/* <ReviewList /> */}
-              <StarContain />
+              <ReviewList />
+              {/* <StarContain /> */}
               <br></br>
               <h3>Thank you for rating this movie.</h3>
             </div>
